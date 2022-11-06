@@ -16,7 +16,7 @@ class ATMTest {
         assertEquals(t_50, moneyFromATM[2]);
     }
 
-    // тестирование функции расчёта не возможности выдачи всей суммы
+    // тестирование функции расчёта невозможности выдачи всей суммы
     @ParameterizedTest
     @ValueSource(ints = {55, 35000})
     public void testATMNull(int amount) {
